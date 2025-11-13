@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    font-family: Arial,  sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: #dd5f0b;
+    color:#130905;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* header */
+header {
+    background-color: #ff4d00;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+/* promo section */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #ff4d00;
+}
+
+li {
+    list-style: inside;
+}
+
+/* Menu Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table,th, td{
+    border: 1px solid #ddd;
+}
+th,td {
+    padding: 12px;
+    text-align: center;
+}
+
+thead {
+    background-color: #ffddc1;
+}
+
+/* Form */
+form{
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius:10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba (0,0,0,0.1);
+}
+
+form label {
+    font-weight:bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea{
+   width:100% ;
+   padding:10px ;
+   margin-top:5px ;
+   border-radius:5px ;
+   border: 1px solid #681e1e;
+   box-sizing:border-box ;
+}
+
+form input[type="checkbox"],
+form input[type="radio"]{
+    margin-right: 5px;
+
+}
+
+form button {
+    background-color:#ff4d00 ;
+    color:rgb(255, 0, 0) ;
+    padding: 10px 20px;
+    border: none;
+    border-radius:5px ;
+    cursor:pointer ;
+}
+form button:hover{
+    background-color: #e63900;
+}
+ 
+/* contact */
+#contact p {
+    border:2px solid #ff4d00 ;
+    padding:10px ;
+    border-radius:5px ;
+    margin:10px auto ;
+    width: max-content;
+}
+
+/* forter */
+footer {
+    background-color: #ff4d00;
+    color: white;
+    text-align:center ;
+    padding:10px ;
+    margin-top: 20px;
+} 
